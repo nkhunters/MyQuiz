@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/total_rupees"
+        android:title="My Wallet"
+        android:icon="@drawable/ic_purse"
+        />
+
+    <item android:id="@+id/view_history"
+        android:title="Withdraw Requests"
+        android:icon="@drawable/ic_history_white_24dp"
+        />
+
+    <item android:id="@+id/change_password"
+        android:title="Edit Profile"
+        android:icon="@drawable/ic_lock"/>
+
+    <!--<item android:id="@+id/rate_us"
+        android:title="Rate us"
+        android:icon="@drawable/ic_rate_us_new"/>
+
+    <item android:id="@+id/share_app"
+        android:title="Share"
+        android:icon="@drawable/ic_share"/>-->
+
+    <item android:id="@+id/privacyPolicy"
+        android:title="Privacy Policy"
+        android:icon="@drawable/ic_lock"/>
+
+    <item android:id="@+id/termsCondition"
+        android:title="Terms &amp; Conditions"
+        android:icon="@drawable/ic_notepad"/>
+
+    <item android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_circular_power_button"/>
+
+</menu>

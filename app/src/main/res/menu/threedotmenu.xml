@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/my_profile"
+        android:title="My Profile"
+        android:icon="@drawable/ic_user_new"
+        app:showAsAction="never"/>
+    <item android:id="@+id/change_password"
+        android:title="Change Password"
+        android:icon="@drawable/ic_key_new"
+        app:showAsAction="never" />
+
+</menu>

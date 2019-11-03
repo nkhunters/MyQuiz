@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_list"
+    tools:context=".Activities.Register"
+    android:id="@+id/main_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            />
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/edittextbackgroundwhite"
+            android:gravity="fill"
+            android:hint="Enter Full Name"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:padding="13dp"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textSize="13dp" />
+
+
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/edittextbackgroundwhite"
+            android:gravity="fill"
+            android:hint="Enter Mobile No."
+            android:imeOptions="actionNext"
+            android:inputType="phone"
+            android:padding="13dp"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/edittextbackgroundwhite"
+            android:gravity="fill"
+            android:hint="Enter Password"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:padding="13dp"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textSize="13dp" />
+
+        <EditText
+            android:id="@+id/confirm_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/edittextbackgroundwhite"
+            android:gravity="fill"
+            android:hint="Confirm Password"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:padding="13dp"
+            android:paddingLeft="20dp"
+            android:singleLine="true"
+            android:textSize="13dp" />
+
+
+        <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/buttonbackground"
+            android:elevation="5dp"
+            android:padding="13dp"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/have_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:padding="13dp"
+            android:text="Already have an account? Sign In"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</ScrollView>

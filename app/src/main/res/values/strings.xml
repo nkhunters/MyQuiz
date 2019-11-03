@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyQuizApp</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="congra">Congratulations! 100 points added</string>
+    <string name="spinEarn">Spin &amp; Earn</string>
+</resources>
